@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import {
@@ -39,7 +38,7 @@ function NavItem({ icon: Icon, title, to, onClick, highlight }: NavItemProps) {
       onClick={onClick}
       className={({ isActive }) =>
         cn(
-          "flex items-center gap-3 rounded-md px-4 py-3 text-base transition-all hover:bg-accent",
+          "flex items-center gap-3 rounded-md px-4 py-3 text-base transition-all hover:bg-accent hover:text-black",
           isActive
             ? "bg-primary/10 text-primary font-medium"
             : highlight 
@@ -84,7 +83,7 @@ export default function MobileNav({ isOpen, onClose }: MobileNavProps) {
             <NavItem icon={Settings} title="Settings" to="/settings" onClick={onClose} />
             <button
               onClick={handleLogout}
-              className="flex w-full items-center gap-3 rounded-md px-4 py-3 text-base text-rose-500 transition-all hover:bg-rose-500/10"
+              className="flex w-full items-center gap-3 rounded-md px-4 py-3 text-base text-rose-500 transition-all hover:bg-rose-500/10 hover:text-black"
             >
               <LogOut className="h-5 w-5" />
               <span>Logout</span>

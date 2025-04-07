@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -46,7 +45,7 @@ function SidebarItem({ icon: Icon, title, to }: SidebarItemProps) {
         "h-4 w-4",
         isActive ? "text-primary" : "text-muted-foreground group-hover:text-primary/80"
       )} />
-      <span className={isActive ? "text-primary" : "group-hover:text-foreground"}>{title}</span>
+      <span className={isActive ? "text-primary" : "group-hover:text-black"}>{title}</span>
     </NavLink>
   );
 }
@@ -82,14 +81,14 @@ export default function Sidebar() {
               )}
             >
               <Settings className="h-4 w-4 group-hover:text-primary/80" />
-              <span className="group-hover:text-foreground">Settings</span>
+              <span className="group-hover:text-black">Settings</span>
             </NavLink>
             <button
               onClick={logout}
               className="flex w-full items-center gap-3 rounded-md px-3 py-2 text-rose-500 transition-all hover:bg-rose-500/10"
             >
               <LogOut className="h-4 w-4" />
-              <span>Logout</span>
+              <span className="hover:text-black">Logout</span>
             </button>
           </nav>
         </div>
