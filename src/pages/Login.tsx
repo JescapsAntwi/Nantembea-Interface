@@ -20,7 +20,7 @@ export default function Login() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-muted/40 p-4">
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-health-700">Natembea Health Nexus</h1>
+          <h1 className="text-3xl font-bold text-health-700">Group5 - Natembea Health System</h1>
           <p className="text-muted-foreground mt-2">Hospital Record Management System</p>
         </div>
         
@@ -37,7 +37,7 @@ export default function Login() {
         </Card>
         
         <p className="mt-4 text-center text-sm text-muted-foreground">
-          &copy; 2023 Natembea Health Centre. All rights reserved.
+          &copy; 2025 Group5 - Natembea Health Centre. All rights reserved.
         </p>
       </div>
     </div>

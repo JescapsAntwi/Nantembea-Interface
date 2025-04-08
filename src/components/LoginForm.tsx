@@ -79,7 +79,7 @@ export default function LoginForm() {
               <FormControl>
                 <Input 
                   type="email" 
-                  placeholder="sarah.johnson@example.com" 
+                  placeholder="jescaps.antwi@ashesi.edu.gh" 
                   {...field} 
                   autoComplete="email"
                 />
@@ -119,9 +119,9 @@ export default function LoginForm() {
           Demo Accounts
         </h3>
         <ul className="space-y-1 text-sm text-blue-800">
-          <li><strong>Doctor:</strong> sarah.johnson@example.com</li>
-          <li><strong>Nurse:</strong> david.chen@example.com</li>
-          <li><strong>Admin:</strong> elizabeth.taylor@example.com</li>
+          <li><strong>Doctor:</strong> jescaps.antwi@ashesi.edu.gh</li>
+          <li><strong>Nurse:</strong> nanaakua.oduraa@ashesi.edu.gh</li>
+          <li><strong>Admin:</strong> adobea.odame@ashesi.edu.gh</li>
           <li className="text-xs text-blue-600 italic mt-1">(use any password)</li>
         </ul>
       </div>

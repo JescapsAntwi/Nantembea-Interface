@@ -107,11 +107,11 @@ export const mockPatients: Patient[] = [
 export const mockStaff: StaffMember[] = [
   {
     id: uuidv4(),
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Jescaps Antwi",
     role: "doctor",
     specialization: "General Medicine",
     contactPhone: "+233 55 111 2222",
-    email: "sarah.johnson@example.com",
+    email: "jescaps.antwi@ashesi.edu.gh",
     schedule: {
       monday: "8:00 AM - 4:00 PM",
       tuesday: "8:00 AM - 4:00 PM",
@@ -262,21 +262,21 @@ export const mockUsers: User[] = [
   {
     id: uuidv4(),
     name: "Admin User",
-    email: "elizabeth.taylor@example.com",
+    email: "adobea.odame@ashesi.edu.gh",
     role: "admin",
     avatar: "/avatars/admin.png"
   },
   {
     id: uuidv4(),
-    name: "Dr. Sarah Johnson",
-    email: "sarah.johnson@example.com",
+    name: "Dr. Jescaps Antwi",
+    email: "jescaps.antwi@ashesi.edu.gh",
     role: "doctor",
     avatar: "/avatars/doctor.png"
   },
   {
     id: uuidv4(),
-    name: "Nurse David Chen",
-    email: "david.chen@example.com",
+    name: "Nurse Nanaakua Oduraa",
+    email: "nanaakua.oduraa@ashesi.edu.gh",
     role: "nurse",
     avatar: "/avatars/nurse.png"
   },
